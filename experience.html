@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>experience</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="experience.html">experience</a>
+</li>
+<li>
+  <a href="mailto:&lt;rz2614@cumc.columbia.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/Rheaaaaaaaaa/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/%E8%8A%AE%E8%8F%A1-%E5%BC%A0-5978a0230/">
+    <span class="fa fa-LinkedIn fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">experience</h1>
+
+</div>
+
+
+<hr />
+<pre><code>                           Ruihan Zhang (Rhea)</code></pre>
+<p>50 Haven Avenue, New York City, NY, 10032 | 617-685-3140 | <a
+href="mailto:rz2614@cumc.columbia.edu"
+class="email">rz2614@cumc.columbia.edu</a></p>
+<p><strong>EDUCATIONAL EXPERIENCES</strong></p>
+<p><em>Columbia University</em> New York City, USA Biostatistics
+09/2022-05/2024 GPA: N/A</p>
+<p><em>Boston University</em> Boston, USA Bachelor of Health Science
+09/2020-05/2022 GPA: 3.55/4.0 Dean’s List: Fall 2020, Spring 2021, Fall
+2022</p>
+<p><em>Wheaton College</em> Norton, USA Undecided Major 09/2018-06/2020
+GPA:3.8/4.0 Dean’s List: Fall 2018, Spring 2019, Fall 2019</p>
+<p><strong>PROFESSIONAL SKILLS AND INTERESTS</strong></p>
+<p>Computing Skills: Microsoft Office, R, Python, SQL, Photoshop
+Language Skills: Chinese (First Language), English (Fluent)</p>
+<p><strong>INTERNSHIP EXPERIENCES</strong></p>
+<p><em>Institute for Technology and Global Health</em> Boston, USA
+Assistant Researcher 06/2022 – 08/2022 1. Study the current landscape of
+health, economics, technology, and public policy to formulate policy
+recommendations aimed at mitigating a specific health challenge 2. Use R
+to analyze productivity driven by individual health status, and the
+aggregate effects of the health of a given population on its economic
+conditions 3. Infer from analyses of large datasets and what challenges
+may hinder economic development in some countries but not others and the
+effects of health</p>
+<p><em>BU Terrier Fueling Station</em> Boston, USA Assistant
+Nutritionist 09/2021-12/2021 1. Studied the nutrient content of fruit,
+protein bars, milk, yogurt and other necessary foods for athletes 2.
+Classified pre-workout and post-workout nutrients for athletes<br />
+3. Analyzed data with Excel and figured out more effective nutrition
+trends for athletes</p>
+<p><em>SPH Qingdao Pharmaceutical Co., Ltd.</em> Qingdao, China
+Assistant Biostatistician 07/2021-08/2021 1. Mastered operating
+procedures of medicines and types of healthcare products 2. Used R to
+create a sales graph and realized top 10 bestsellers of medicines 3.
+Understood ingredients of medicines like Bayaspirin, Nexavar and Xarelto
+and their side effects</p>
+<p><strong>RESEARCH EXPERIENCES</strong></p>
+<p><em>Thesis on Treatment for Depression: Emerging Topics and Future
+Perspectives</em> Online Researcher 08/2021-09/2021 1. Compared and
+contrasted major types of depression treatments, listed their strengths
+and limits, including psychotherapy, antidepressants, meditation, TMS
+therapy and alternative and complementary treatments 2. Collected data
+of patients in different ages who received depression treatments,
+discovered the most suitable age for receiving those treatments 3.
+Reported current applications of depression therapies and theories
+behind them</p>
+<p><em>Research on Distribution of Horseshoe Crabs Satellites Analyzed
+by Logistic Regression</em> Online Group Member 06/2021-07/2021 1.
+Created a data frame of weight, width, color, spine and y with R 2.
+Generated logistic regression to find relations between weight and width
+of satellites and their habitats 3. Employed AIC as the reference to
+make the selection of variables in the final model and selected width
+and color as explanatory variables 4. Conducted the logistic model:
+logit(y) = -11.38+0.47width+0.07c2-0.229c3-1.33c4 to verify if logit(y)
+had a positive correlation to width</p>
+<p><strong>ACADEMIC PROJECTS</strong></p>
+<p><em>Research on BU Students’ Life Experiences during Covid-19</em>
+Boston, USA Group Organizer 03/2022 – 05/2022 1. Used in-depth
+interviews, document analysis, and mapping to collect data about BU
+students’ perspectives on activities in public prior to receiving the
+vaccine 2. Figured out the difference in students’ activities before and
+after the pandemic and its extent 3. Found out future policies for
+students’ public activities during pandemics</p>
+<p><em>Research on the Impact of Lead Paint Exposure on the Incidence of
+Lead Poisoning in Children across the US</em> Boston, USA Project Leader
+03/2022 – 05/2022 1. Analyzed current policies that seek to mitigate
+this environmental health concern, and outlined future actions that
+state legislatures, and the federal government can take to reduce the
+burden of lead poisoning among children 2. Focused on two specific
+policy recommendations that can directly impact the health of
+populations at risk for lead poisoning 3. Explore the measures that the
+U.S. has taken to address this environmental health challenge through
+policy, education, and health resources</p>
+<p><em>Research on the Association Between Chocolate Consumption and
+Mood (Positive, Negative, or Neutral)</em> Boston, USA Group Organizer
+04/2021 1. Conducted an experimental study with 18 to 24 age group of BU
+students randomly, including the treatment group and the control group
+2. Measured the incidence of outcomes in both groups to access the
+association between chocolate consumption and mood 3. Figured out
+confounders including preference for chocolate, hungry and sugar content
+from the study</p>
+<p><em>Research on Pfizer/BioNTech COVID-19 Vaccine for Patients with
+Solid Cancers with Safety Issue</em> Boston, USA First Writer 04/2021 1.
+Searched online and assembled data of COVID-19 pandemic and arguments
+over Pfizer/BioNTech Covid-19 vaccine 2. Reported slight allergic
+reactions of patients after taking Pfizer/BioNTech Covid-19 Vaccine 3.
+Finally affirmed that Pfizer/BioNTech COVID-19 Vaccine could be
+vaccinated by Patients with Solid Cancers</p>
+<p><em>Research on Malnutrition in Syrian Arab Republic as a Significant
+Global Health Challenge</em> Boston, USA Project Leader 10/2020-12/2020
+1. Gathered reasons of the prevalence of malnutrition by studying
+demographics, physical and human geography in Syrian Arab Republic 2.
+Investigated non-communicable diseases like acute bloody diarrhea which
+could be deadly issues in Syria due to chronic and acute malnutrition 3.
+Designed a mind map of major causes of malnutrition in Syrian and wrote
+a report essay —</p>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

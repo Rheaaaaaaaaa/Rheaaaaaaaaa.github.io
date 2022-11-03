@@ -1,30 +1,104 @@
 ---
 title: "experience"
-author: "Ruihan Zhang"
-date: "2022-11-03"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+---
 
-## R Markdown
+                               Ruihan Zhang (Rhea)
+50 Haven Avenue, New York City, NY, 10032 | 617-685-3140 | rz2614@cumc.columbia.edu
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+**EDUCATIONAL EXPERIENCES**
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+*Columbia University*                                     New York City, USA
+Biostatistics                                              09/2022-05/2024
+GPA: N/A
 
-```{r cars}
-summary(cars)
-```
+*Boston University*                                              Boston, USA
+Bachelor of Health Science                                 09/2020-05/2022
+GPA: 3.55/4.0
+Dean’s List: Fall 2020, Spring 2021, Fall 2022
 
-## Including Plots
+*Wheaton College*                                               Norton, USA
+Undecided Major                                          09/2018-06/2020
+GPA:3.8/4.0
+Dean’s List: Fall 2018, Spring 2019, Fall 2019
 
-You can also embed plots, for example:
+**PROFESSIONAL SKILLS AND INTERESTS**
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+Computing Skills: Microsoft Office, R, Python, SQL, Photoshop
+Language Skills: Chinese (First Language), English (Fluent)
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+**INTERNSHIP EXPERIENCES**
+
+*Institute for Technology and Global Health*                       Boston, USA
+Assistant Researcher                                       06/2022 – 08/2022
+1. Study the current landscape of health, economics, technology, and public policy to formulate policy recommendations aimed at mitigating a specific health challenge
+2. Use R to analyze productivity driven by individual health status, and the aggregate effects of the health of a given population on its economic conditions
+3. Infer from analyses of large datasets and what challenges may hinder economic development in some countries but not others and the effects of health
+
+*BU Terrier Fueling Station*                                      Boston, USA
+Assistant Nutritionist                                          09/2021-12/2021
+1. Studied the nutrient content of fruit, protein bars, milk, yogurt and other necessary foods for athletes
+2. Classified pre-workout and post-workout nutrients for athletes  
+3. Analyzed data with Excel and figured out more effective nutrition trends for athletes
+
+*SPH Qingdao Pharmaceutical Co., Ltd.*                        Qingdao, China
+Assistant Biostatistician                                                      07/2021-08/2021
+1. Mastered operating procedures of medicines and types of healthcare products
+2. Used R to create a sales graph and realized top 10 bestsellers of medicines 
+3. Understood ingredients of medicines like Bayaspirin, Nexavar and Xarelto and their side effects
+
+**RESEARCH EXPERIENCES**
+
+*Thesis on Treatment for Depression: Emerging Topics and Future Perspectives*    Online
+Researcher                                                  08/2021-09/2021
+1. Compared and contrasted major types of depression treatments, listed their strengths and limits, including psychotherapy, antidepressants, meditation, TMS therapy and alternative and complementary treatments
+2. Collected data of patients in different ages who received depression treatments, discovered the most suitable age for receiving those treatments
+3. Reported current applications of depression therapies and theories behind them
+
+*Research on Distribution of Horseshoe Crabs Satellites Analyzed by Logistic Regression*                                                          Online
+Group Member                                              06/2021-07/2021
+1. Created a data frame of weight, width, color, spine and y with R
+2. Generated logistic regression to find relations between weight and width of satellites and their habitats 
+3. Employed AIC as the reference to make the selection of variables in the final model and selected width and color as explanatory variables
+4. Conducted the logistic model: logit(y) = -11.38+0.47width+0.07c2-0.229c3-1.33c4 to verify if logit(y) had a positive correlation to width 
+
+**ACADEMIC PROJECTS**
+
+*Research on BU Students’ Life Experiences during Covid-19*      Boston, USA
+Group Organizer                                            03/2022 – 05/2022
+1. Used in-depth interviews, document analysis, and mapping to collect data about BU students’ perspectives on activities in public prior to receiving the vaccine
+2. Figured out the difference in students’ activities before and after the pandemic and its extent
+3. Found out future policies for students’ public activities during pandemics
+
+*Research on the Impact of Lead Paint Exposure on the Incidence of Lead Poisoning in Children across the US*                            Boston, USA
+Project Leader                                             03/2022 – 05/2022
+1. Analyzed current policies that seek to mitigate this environmental health concern, and outlined future actions that state legislatures, and the federal government can take to reduce the burden of lead poisoning among children
+2. Focused on two specific policy recommendations that can directly impact the health of populations at risk for lead poisoning
+3. Explore the measures that the U.S. has taken to address this environmental health challenge through policy, education, and health resources
+
+*Research on the Association Between Chocolate Consumption and Mood (Positive, Negative, or Neutral)*                                  Boston, USA
+Group Organizer                                                     04/2021
+1. Conducted an experimental study with 18 to 24 age group of BU students randomly, including the treatment group and the control group 
+2. Measured the incidence of outcomes in both groups to access the association between chocolate consumption and mood
+3. Figured out confounders including preference for chocolate, hungry and sugar content from the study
+
+*Research on Pfizer/BioNTech COVID-19 Vaccine for Patients with Solid Cancers with Safety Issue*                                               Boston, USA
+First Writer                                                          04/2021
+1. Searched online and assembled data of COVID-19 pandemic and arguments over Pfizer/BioNTech Covid-19 vaccine
+2. Reported slight allergic reactions of patients after taking Pfizer/BioNTech Covid-19 Vaccine
+3. Finally affirmed that Pfizer/BioNTech COVID-19 Vaccine could be vaccinated by Patients with Solid Cancers
+
+*Research on Malnutrition in Syrian Arab Republic as a Significant Global Health Challenge*                                                     Boston, USA
+Project Leader                                                                 10/2020-12/2020
+1. Gathered reasons of the prevalence of malnutrition by studying demographics, physical and human geography in Syrian Arab Republic 
+2. Investigated non-communicable diseases like acute bloody diarrhea which could be deadly issues in Syria due to chronic and acute malnutrition 
+3. Designed a mind map of major causes of malnutrition in Syrian and wrote a report essay
+---
+
+
+
