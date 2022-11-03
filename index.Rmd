@@ -6,7 +6,7 @@ output:
     toc_float: true
     theme: cerulean
 ---
-
+Here's a direct link to the about page: [about](about.html).
 
 Here's a direct link to a page giving my academic and professional experience: [experience](experience.html).
 
