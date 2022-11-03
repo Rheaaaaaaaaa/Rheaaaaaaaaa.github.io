@@ -9,5 +9,5 @@ output:
 # This is Rhea's awesome website
 
 I am Ruihan Zhang majoring in biostatistics at Columbia University. I studied health sciences at Boston University for my undergraduate study. I come from China.  
-![](images/WechatIMG406.jpeg)
+![](images/WechatIMG407.jpeg)
 

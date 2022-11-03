@@ -11,3 +11,5 @@ Here's a direct link to the about page: [about](about.html).
 Here's a direct link to a page giving my academic and professional experience: [experience](experience.html).
 
 I also made a [flexdashboard](flexdashboard.html).
+
+![](images/WechatIMG406.jpeg)
