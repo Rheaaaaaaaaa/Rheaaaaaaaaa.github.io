@@ -1,0 +1,73 @@
+---
+title: "flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source_code: embed
+---
+
+```{r,include=FALSE}
+library(ggridges) 
+library(patchwork) 
+library(dplyr)
+library(knitr)
+library(p8105.datasets)
+library(tidyverse)
+library(plotly)
+library(flexdashboard)
+```
+
+```{r}
+data("instacart")
+```
+```{r,include=FALSE}
+order_data = instacart %>% 
+  janitor::clean_names() %>%
+  select(., order_id, reordered, user_id, order_number, order_dow, order_hour_of_day, days_since_prior_order, product_name, aisle, department) %>% 
+  filter(., department == "frozen"
+         )
+
+
+```
+
+
+
+Column {data-width=600}
+-----------------------------------------------------------------------
+
+### Chart A
+```{r}
+order_data %>% 
+  group_by(aisle) %>%
+  summarize(
+    number=n()) %>% 
+  mutate(aisle=fct_reorder(aisle,number)) %>%
+  mutate(text_label = str_c("aisle: ", aisle, "\nnumber: ", number)) %>% 
+   plot_ly(x = ~aisle, y = ~number, color = ~aisle, type = "bar", text = ~text_label) 
+
+```
+
+
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+### Chart B
+```{r}
+instacart %>% 
+  filter(., department == "dairy eggs") %>% 
+  count(aisle) %>%
+  filter(n > 10000) %>%
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  mutate(text_label = str_c("aisle: ", aisle, "\nnumber: ", n)) %>%
+  plot_ly(x = ~aisle, y = ~n,type="scatter",text = ~text_label,  mode = "markers",color = ~aisle,  alpha = 0.5)
+  
+```
+### Chart C
+```{r}
+instacart %>%
+  filter(department=="snacks") %>%
+  mutate(aisle=fct_reorder(aisle,order_number)) %>%
+  plot_ly(y=~order_number,color=~aisle,type="box")
+```
+
